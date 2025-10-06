@@ -104,8 +104,8 @@
     <td><span style="color: #79c928ff">#</span> Indica si hay cambios en rama remota</td>
   </tr>
   <tr>
-    <td><span style="color: #f8d910ff">git</span> <span style="color: #00eeffff">fetch</span>--<span style="color: #FF0077">prune</span> [remote]</td>
-    <td><span style="color: #79c928ff">#</span> Elimina las referencias remotas que han sido eliminadas del repositorio remoto</td>
+    <td><span style="color: #f8d910ff">git</span> <span style="color: #00eeffff">fetch </span>-<span style="color: #FF0077">p</span> [remote]</td>
+    <td><span style="color: #79c928ff">#</span> Elimina las referencias remotas que han sido eliminadas del repositorio remoto (-p / --prune)</td>
   </tr>
   <tr>
     <td><span style="color: #f8d910ff">git</span> <span style="color: #00eeffff">pull</span> [remote]</td>
