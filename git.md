@@ -76,10 +76,6 @@
     <td><span style="color: #79c928ff;">#</span> Cambia a una rama diferente</td>
   </tr>
   <tr>
-    <td><span style="color: #f8d910ff">git</span> <span style="color: #00eeffff">rebase</span> [rama-objetivo]</td>
-    <td><span style="color: #79c928ff;">#</span> Aplica el último estado de la rama objetivo a la rama actual REVISAR</td>
-  </tr>
-  <tr>
     <td><span style="color: #f8d910ff">git</span> <span style="color: #00eeffff">branch</span> [-<span style="color: #FF0077">d</span>] | [-<span style="color: #FF0077">D</span>] [nombre-rama]</td>
     <td><span style="color: #79c928ff;">#</span> Elimina la rama. Con -D fuerza la eliminación</td>
   </tr>
@@ -92,8 +88,8 @@
     <td><span style="color: #79c928ff">#</span> Fusiona los cambios desde la rama objetivo hacia la rama actual</td>
   </tr>
   <tr>
-    <td><span style="color: #f8d910ff">git</span> <span style="color: #00eeffff">remote</span> <span style="color: #FF0077">add</span> [nombre] [url]</td>
-    <td><span style="color: #79c928ff;">#</span> Añade un repositorio/proyecto remoto</td>
+    <td><span style="color: #f8d910ff">git</span> <span style="color: #00eeffff">rebase</span> [rama-objetivo]</td>
+    <td><span style="color: #79c928ff;">#</span> Aplica el último estado de la rama objetivo a la rama actual REVISAR</td>
   </tr>
 </table>
 
@@ -114,6 +110,14 @@
   <tr>
     <td><span style="color: #f8d910ff">git</span> <span style="color: #00eeffff">push</span> -<span style="color: #FF0077">u</span> [remote] [branch]</td>
     <td><span style="color: #79c928ff">#</span> Sube la rama local al repositorio remoto</td>
+  </tr>
+  <tr>
+    <td><span style="color: #f8d910ff">git</span> <span style="color: #00eeffff">remote</span> -<span style="color: #FF0077">v</span></td>
+    <td><span style="color: #79c928ff">#</span> Muestra repositorios remotos</td>
+  </tr>
+  <tr>
+    <td><span style="color: #f8d910ff">git</span> <span style="color: #00eeffff">remote</span> <span style="color: #FF0077">add</span> origin [url]</td>
+    <td><span style="color: #79c928ff;">#</span> Añade un repositorio/proyecto remoto</td>
   </tr>
   <tr>
     <td><span style="color: #f8d910ff">git</span> <span style="color: #00eeffff">branch</span> --<span style="color: #FF0077">unset-upstream</span></td>
@@ -162,6 +166,14 @@
   <tr>
     <td><span style="color: #f8d910ff">git</span> <span style="color: #00eeffff">log</span> [-<span style="color: #FF0077">n</span> count]</td>
     <td><span style="color: #79c928ff">#</span> Lista la historia de commits de la rama actual. <b>-n count</b> limita la lista a los últimos <b>n</b> commits</td>
+  </tr>
+  <tr>
+    <td><span style="color: #f8d910ff">git</span> <span style="color: #00eeffff">log</span> --<span style="color: #FF0077">online</span> --<span style="color: #FF0077">graph</span></td>
+    <td><span style="color: #79c928ff">#</span> Lista la historia de commits de manera compacta y gráfica</td>
+  </tr>
+  <tr>
+    <td><span style="color: #f8d910ff">git</span> <span style="color: #00eeffff">show</span> [<span style="color: #FF0077">commit</span> ]</td>
+    <td><span style="color: #79c928ff">#</span>Muestra los detalles de un commit</td>
   </tr>
 </table>
 
