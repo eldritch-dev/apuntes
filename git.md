@@ -47,8 +47,8 @@
     <td><span style="color: #79c928ff;">#</span> Muestra los cambios entre el archivo local y el área de preparación</td>
   </tr>
   <tr>
-    <td><span style="color: #f8d910ff">git</span> <span style="color: #00eeffff">diff</span> --<span style="color: #FF0077">staged</span> [archivo]</td>
-    <td><span style="color: #79c928ff;">#</span> Muestra los cambios entre el área de preparación y el repositorio</td>
+    <td><span style="color: #f8d910ff">git</span> <span style="color: #00eeffff">diff</span> --<span style="color: #FF0077">staged</span></td>
+    <td><span style="color: #79c928ff;">#</span> Muestra los cambios añadidos al área de preparación</td>
   </tr>
   <tr>
     <td><span style="color: #f8d910ff">git</span> <span style="color: #00eeffff">checkout</span> -- [archivo]</td>
