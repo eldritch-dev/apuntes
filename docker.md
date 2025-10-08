@@ -35,3 +35,8 @@
     <td><span style="color: #79c928ff">#</span> Muestra los logs del contenedor indicado en vivo</td>
   </tr>
 </table>
+
+## Definiciones
+- Imagen: archivo inmutable que tiene todo lo necesario para ejecutar una app (OS, binarios, dependencias, etc).
+- Contenedor: instancia en ejecución de una imagen. Es un proceso en ejecución basado en una imagen. Tiene sus propios puertos y sistema de archivos. Se puede iniciar, detener, reiniciar y eliminar. Por defecto sus datos son volátiles.
+- Volúmen: espacio de almacenamiento persistente gestionado por docker que existe fuera del contenedor. Se puede conectar un volumen a uno o más contenedores.
