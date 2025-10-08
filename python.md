@@ -16,6 +16,16 @@
     </td>
     <td><span style="color: #79c928ff">#</span> Ejecuta el archivo script.py</td>
   </tr>
+  <tr>
+    <td><span style="color: #f8d910ff">python</span> <span style="color: #00eeffff">app.py</span>
+    </td>
+    <td><span style="color: #79c928ff">#</span> Ejecuta el proyecto</td>
+  </tr>
+  <tr>
+    <td><span style="color: #f8d910ff">python</span> -<span style="color: #00eeffff">m</span> unittest
+    </td>
+    <td><span style="color: #79c928ff">#</span> Ejecuta los tests definidos con unittest</td>
+  </tr>
 </table>
 
 <table>
