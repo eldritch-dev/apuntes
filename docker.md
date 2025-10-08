@@ -1,29 +1,37 @@
 # Docker Cheat Sheet
 
 <table>
-    <h2>🪄 Inicialización y Configuración</h2>
+    <h2>🪄 Trabajo Diario</h2>
   <tr>
-    <td><span style="color: #f8d910ff">git</span> --<span style="color: #00eeffff">version</span></td>
-    <td><span style="color: #79c928ff">#</span> Verificar si Git está instalado solicitando su versión</td>
+    <td><span style="color: #f8d910ff">docker-compose</span> <span style="color: #00eeffff">up</span> -<span style="color: #FF0077">d</span></td>
+    <td><span style="color: #79c928ff">#</span> Crea y ejecuta el contenedor configurado en el archivo docker-compose</td>
   </tr>
   <tr>
-    <td><span style="color: #f8d910ff">git</span> <span style="color: #00eeffff">init</span></td>
-    <td><span style="color: #79c928ff;">#</span> Inicializa un nuevo repositorio Git</td>
+    <td><span style="color: #f8d910ff">docker</span> <span style="color: #00eeffff">ps</span>
+    </td>
+    <td><span style="color: #79c928ff">#</span> Verifica todos los contenedores que están ejecutándose</td>
   </tr>
   <tr>
-    <td><span style="color: #f8d910ff">git</span> <span style="color: #00eeffff">clone</span> [repo-url]</td>
-    <td><span style="color: #79c928ff;">#</span> Clona un repositorio desde una URL</td>
+    <td><span style="color: #f8d910ff">docker-compose</span> <span style="color: #00eeffff">down</span>
+    </td>
+    <td><span style="color: #79c928ff">#</span> Detiene y elimina el contenedor configurado en el archivo docker-compose que está ejecutándose</td>
   </tr>
   <tr>
-    <td><span style="color: #f8d910ff">git</span> <span style="color: #00eeffff">config</span> --<span style="color: #FF0077">global</span> user.name "NombreDeUsuario"</td>
-    <td><span style="color: #79c928ff;">#</span> Configura tu nombre de usuario</td>
+    <td><span style="color: #f8d910ff">docker</span> <span style="color: #00eeffff">stop</span> [nombre-del-contenedor]
+    </td>
+    <td><span style="color: #79c928ff">#</span> Detiene el contenedor indicado sin eliminarlo</td>
   </tr>
   <tr>
-    <td><span style="color: #f8d910ff">git</span> <span style="color: #00eeffff">config</span> --<span style="color: #FF0077">global</span> user.email "email@dominio.com"</td>
-    <td><span style="color: #79c928ff;">#</span> Configura tu email</td>
+    <td><span style="color: #f8d910ff">docker</span> <span style="color: #00eeffff">start</span> [nombre-del-contenedor]
+    </td>
+    <td><span style="color: #79c928ff">#</span> Inicia el contenedor iniciado</td>
   </tr>
   <tr>
-    <td><span style="color: #f8d910ff">git</span> <span style="color: #00eeffff">config</span> --<span style="color: #FF0077">global</span> --<span style="color: #FF0077">list</span>"</td>
-    <td><span style="color: #79c928ff;">#</span> Revisa configuraciones globales</td>
+    <td><span style="color: #f8d910ff">docker-compose</span> <span style="color: #00eeffff">down</span> -<span style="color: #FF0077">v</span></td>
+    <td><span style="color: #79c928ff">#</span> Elimina el volumen asociado al contenedor configurado en el archivo docker-compose</td>
+  </tr>
+  <tr>
+    <td><span style="color: #f8d910ff">docker</span> <span style="color: #00eeffff">logs</span> -<span style="color: #FF0077">f</span> [nombre-del-contenedor]</td>
+    <td><span style="color: #79c928ff">#</span> Muestra los logs del contenedor indicado en vivo</td>
   </tr>
 </table>
