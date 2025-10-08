@@ -26,7 +26,7 @@
     <td><span style="color: #79c928ff">#</span> Muestra todas las dependencias del proyecto y sus versiones actuales. List las muestra en formato 'humano' y freeze en formato para exportar y reinstalar</td>
   </tr>
   <tr>
-    <td><span style="color: #f8d910ff">pip</span> <span style="color: #00eeffff">freeze</span> ><span style="color: #FF0077">requirements.txt</span></td>
+    <td><span style="color: #f8d910ff">pip</span> <span style="color: #00eeffff">freeze</span> > <span style="color: #FF0077">requirements.txt</span></td>
     <td><span style="color: #79c928ff">#</span> Guarda todas las dependencias del proyecto en un archivo requirements.txt</td>
   </tr>
   <tr>
@@ -34,9 +34,34 @@
     </td>
     <td><span style="color: #79c928ff">#</span> Instala todas las dependencias de mi proyecto que están listadas en el archivo requirements.txt. Sirve para cuando el proyecto es clonado en un equipo nuevo</td>
   </tr>
-  <td><span style="color: #f8d910ff">pip</span> <span style="color: #00eeffff">install</span> dependencia
+  <tr>
+    <td><span style="color: #f8d910ff">pip</span> <span style="color: #00eeffff">install</span> paquete
     </td>
-    <td><span style="color: #79c928ff">#</span> Instala dependencia en el proyecto</td>
+    <td><span style="color: #79c928ff">#</span> Instala paquete en el proyecto</td>
+  </tr>
+    <td><span style="color: #f8d910ff">pip</span> <span style="color: #00eeffff">install</span> paquete==1.2.3
+    </td>
+    <td><span style="color: #79c928ff">#</span> Instala versión específica del paquete</td>
+  </tr>
+  </tr>
+    <td><span style="color: #f8d910ff">pip</span> <span style="color: #00eeffff">install</span> --<span style="color: #FF0077">upgrade</span> paquete
+    </td>
+    <td><span style="color: #79c928ff">#</span> Actualiza un paquete en su última versión</td>
+  </tr>
+  </tr>
+    <td><span style="color: #f8d910ff">pip</span> <span style="color: #00eeffff">uninstall</span> paquete
+    </td>
+    <td><span style="color: #79c928ff">#</span> Desinstala un paquete</td>
+  </tr>
+  </tr>
+    <td><span style="color: #f8d910ff">pip</span> <span style="color: #00eeffff">show</span> paquete
+    </td>
+    <td><span style="color: #79c928ff">#</span> Entrega información detallada sobre un paquete</td>
+  </tr>
+  </tr>
+    <td><span style="color: #f8d910ff">pip</span> <span style="color: #00eeffff">list</span> --<span style="color: #FF0077">outdated</span>
+    </td>
+    <td><span style="color: #79c928ff">#</span> Lista los paquetes que tienen una versión nueva disponible</td>
   </tr>
 </table>
 
