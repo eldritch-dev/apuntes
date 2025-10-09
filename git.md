@@ -51,6 +51,10 @@
     <td><span style="color: #79c928ff;">#</span> Muestra los cambios añadidos al área de preparación</td>
   </tr>
   <tr>
+    <td><span style="color: #f8d910ff">git</span> <span style="color: #00eeffff">diff</span> --<span style="color: #FF0077">name-only</span> [main]..[nombre-de-la-rama]</td>
+    <td><span style="color: #79c928ff;">#</span> Muestra los archivos modificados en una rama con respecto a main (u otra rama base)</td>
+  </tr>
+  <tr>
     <td><span style="color: #f8d910ff">git</span> <span style="color: #00eeffff">checkout</span> -- [archivo]</td>
     <td><span style="color: #79c928ff;">#</span> Descarta los cambios en el archivo local. Irrecuperable</td>
   </tr>
