@@ -168,7 +168,7 @@
     <td><span style="color: #79c928ff">#</span> Lista la historia de commits de la rama actual. <b>-n count</b> limita la lista a los últimos <b>n</b> commits</td>
   </tr>
   <tr>
-    <td><span style="color: #f8d910ff">git</span> <span style="color: #00eeffff">log</span> --<span style="color: #FF0077">online</span> --<span style="color: #FF0077">graph</span></td>
+    <td><span style="color: #f8d910ff">git</span> <span style="color: #00eeffff">log</span> --<span style="color: #FF0077">oneline</span> --<span style="color: #FF0077">graph</span></td>
     <td><span style="color: #79c928ff">#</span> Lista la historia de commits de manera compacta y gráfica</td>
   </tr>
   <tr>
