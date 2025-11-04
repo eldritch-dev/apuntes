@@ -1,0 +1,1 @@
+-ano | findstr :445 -> Mostrar qué servicio o proceso está utilizando el puerto 445

@@ -1,7 +1,7 @@
 # Python Cheat Sheet
 
 <table>
-    <h2>🪄 Comandos Básicos de Python</h2>
+  <h2>🪄 Comandos Básicos de Python</h2>
   <tr>
     <td><span style="color: #f8d910ff">python</span> --<span style="color: #00eeffff">version</span>
     </td>

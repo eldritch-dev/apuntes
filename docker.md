@@ -36,6 +36,16 @@
   </tr>
 </table>
 
+## Generar Back up de Base de Datos
+- Este método requiere que el contenedor tenga un volumen y carpeta data donde almacene la información.
+1. Conectarse a la BD del contenedor desde SSMS. 
+2. En el explorador click derecho sobre la BD, tareas, generar copia de seguridad. Revisar que se genere en carpeta data.
+3. Click derecho sobre el archivo al revisar data en Docker Desktop y seleccionar 'Save As'. Guardar donde se estime conveniente.
+4: Renombrar archivo (debe tener un nombre diferente a la BD en uso).
+5: Copiar el archivo a la carpeta data. Comando:
+docker cp "ruta-desde" contenedr-bd-sql-server:/var/opt/mssql/data
+6: Restaurar la BD con el archivo de back up desde SSMS.
+
 ## Definiciones
 - Imagen: archivo inmutable que tiene todo lo necesario para ejecutar una app (OS, binarios, dependencias, etc).
 - Contenedor: instancia en ejecución de una imagen. Es un proceso en ejecución basado en una imagen. Tiene sus propios puertos y sistema de archivos. Se puede iniciar, detener, reiniciar y eliminar. Por defecto sus datos son volátiles.

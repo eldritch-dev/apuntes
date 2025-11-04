@@ -16,6 +16,11 @@
     <td><span style="color: #79c928ff">#</span> Levanta servidor local con cifrado SSL/TLS (https). Hay que indicar la url del certificado. Si no se le indica, usará uno autofirmado por Angular lo que generará alerta en el navegador de sitio no seguro y no es necesario usar --ssl-key.</td>
   </tr>
   <tr>
+    <td><span style="color: #f8d910ff">ng</span> <span style="color: #00eeffff">s</span> --[<span style="color: #FF0077">host</span> 0.0.0.0] --[<span style="color: #FF0077">port</span> 4200]
+    --<span style="color: #FF0077">ssl</span> false</td>
+    <td><span style="color: #79c928ff">#</span> Levanta servidor local en http en vez de https</td>
+  </tr>
+  <tr>
     <td><span style="color: #f8d910ff">ng</span> <span style="color: #00eeffff">g</span> <span style="color: #FF0077">c</span> nombre-componente --[<span style="color: #FF0077">inline-style</span>] [<span style="color: #FF0077">inline-template</span>] [<span style="color: #FF0077">skip-tests</span>]</td>
     <td><span style="color: #79c928ff">#</span> Crea un componente</td>
   </tr>
