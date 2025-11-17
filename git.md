@@ -51,6 +51,10 @@
     <td><span style="color: #79c928ff;">#</span> Muestra los cambios añadidos al área de preparación</td>
   </tr>
   <tr>
+    <td><span style="color: #f8d910ff">git</span> <span style="color: #00eeffff">diff</span> [develop]<span style="color: #FF0077">..</span>[nombre-de-la-rama]</td>
+    <td><span style="color: #79c928ff;">#</span> Muestra los cambios en detalle en una rama respecto de la rama develop</td>
+  </tr>
+  <tr>
     <td><span style="color: #f8d910ff">git</span> <span style="color: #00eeffff">diff</span> --<span style="color: #FF0077">name-only</span> [main]..[nombre-de-la-rama]</td>
     <td><span style="color: #79c928ff;">#</span> Muestra los archivos modificados en una rama con respecto a main (u otra rama base)</td>
   </tr>
