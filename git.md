@@ -109,7 +109,7 @@
   </tr>
   <tr>
     <td><span style="color: #f8d910ff">git</span> <span style="color: #00eeffff">fetch </span>-<span style="color: #FF0077">p</span> [remote]</td>
-    <td><span style="color: #79c928ff">#</span> Elimina las referencias remotas que han sido eliminadas del repositorio remoto (-p / --prune)</td>
+    <td><span style="color: #79c928ff">#</span> Verifica las ramas remotas que han sido eliminadas en la última eliminación (-p / --prune)</td>
   </tr>
   <tr>
     <td><span style="color: #f8d910ff">git</span> <span style="color: #00eeffff">pull</span> [remote]</td>
@@ -118,6 +118,10 @@
   <tr>
     <td><span style="color: #f8d910ff">git</span> <span style="color: #00eeffff">push</span> -<span style="color: #FF0077">u</span> [remote] [branch]</td>
     <td><span style="color: #79c928ff">#</span> Sube la rama local al repositorio remoto</td>
+  </tr>
+  <tr>
+    <td><span style="color: #f8d910ff">git</span> <span style="color: #00eeffff">push</span> <span style="color: #FF0077">origin</span> --<span style="color: #FF0077">delete</span> nombre-de-la-rama</td>
+    <td><span style="color: #79c928ff">#</span> Elimina rama remota</td>
   </tr>
   <tr>
     <td><span style="color: #f8d910ff">git</span> <span style="color: #00eeffff">remote</span> -<span style="color: #FF0077">v</span></td>
