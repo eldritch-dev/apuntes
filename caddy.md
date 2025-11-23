@@ -6,6 +6,8 @@ ESTO FUNCIONÓ CORRECTAMENTE CON CADDYFILE. JSON NO FUNCIONÓ NUNCA
 Archivo de configuración *.json nunca me funcionó.
 Lo que sí me funcionó fue usar un Caddyfile (sin extensión).
 
+Desde Símbolo del Sistema (CMD), porque desde otra terminal no me ha logrado funcionar:
+
 "caddy start" usa ese archivo y arranca caddy.
 "caddy stop" detiene caddy.
 
