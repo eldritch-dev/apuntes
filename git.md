@@ -15,8 +15,16 @@
     <td><span style="color: #79c928ff;">#</span> Clona un repositorio desde una URL</td>
   </tr>
   <tr>
+    <td><span style="color: #f8d910ff">git</span> <span style="color: #00eeffff">config</span> --<span style="color: #FF0077">global</span> user.name</td>
+    <td><span style="color: #79c928ff;">#</span> Verifica tu nombre de usuario</td>
+  </tr>
+  <tr>
     <td><span style="color: #f8d910ff">git</span> <span style="color: #00eeffff">config</span> --<span style="color: #FF0077">global</span> user.name "NombreDeUsuario"</td>
     <td><span style="color: #79c928ff;">#</span> Configura tu nombre de usuario</td>
+  </tr>
+  <tr>
+    <td><span style="color: #f8d910ff">git</span> <span style="color: #00eeffff">config</span> --<span style="color: #FF0077">global</span> user.email</td>
+    <td><span style="color: #79c928ff;">#</span> Verifica tu email</td>
   </tr>
   <tr>
     <td><span style="color: #f8d910ff">git</span> <span style="color: #00eeffff">config</span> --<span style="color: #FF0077">global</span> user.email "email@dominio.com"</td>
