@@ -1,4 +1,4 @@
-# Python Cheat Sheet
+# Flask Cheat Sheet
 
 <table>
   <h2>🪄 Comandos Básicos de Flask</h2>
