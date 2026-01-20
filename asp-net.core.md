@@ -2,11 +2,14 @@
 <table>
   <h2>🪄 Comandos Básicos</h2>
    <tr>
-    <td><span style="color: #f8d910ff">dotnet</span> <span style="color: #00eeffff">new web</span> <span style="color: #FF0077">-n</span> NombreApp</td>
-    <td><span style="color: #79c928ff">#</span> Crea un proyecto nuevo utilizando template de Minimal API </td>
+    <td><span style="color: #f8d910ff">dotnet</span> <span style="color: #00eeffff">new web</span> <span style="color: #FF0077">-n</span> NombreApp --<span style="color: #FF0077">framework</span>
+      net8.0
+    </td>
+    <td><span style="color: #79c928ff">#</span> Crea un proyecto nuevo utilizando template de Minimal API. La flag framework permite especificar versión de .NET</td>
   </tr>
   <tr>
-    <td><span style="color: #f8d910ff">dotnet</span> <span style="color: #00eeffff">new webapi</span> <span style="color: #FF0077">-n</span> NombreApp</td>
+    <td><span style="color: #f8d910ff">dotnet</span> <span style="color: #00eeffff">new webapi</span> <span style="color: #FF0077">-n</span> NombreApp --<span style="color: #FF0077">framework</span>
+      net8.0</td>
     <td><span style="color: #79c928ff">#</span> Crea un proyecto nuevo utilizando template API con controladores</td>
   </tr>
   <tr>
