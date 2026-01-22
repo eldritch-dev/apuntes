@@ -14,7 +14,11 @@
   </tr>
   <tr>
     <td><span style="color: #f8d910ff">dotnet</span> <span style="color: #00eeffff">add package</span> Nombre.Del.Paquete</td>
-    <td><span style="color: #79c928ff">#</span> Instala un paquete NuGet</td>
+    <td><span style="color: #79c928ff">#</span> Instala última versión de un paquete NuGet</td>
+  </tr>
+  <tr>
+    <td><span style="color: #f8d910ff">dotnet</span> <span style="color: #00eeffff">add package</span> Nombre.Del.Paquete -<span style="color: #FF0077">v</span> x.y.z</td>
+    <td><span style="color: #79c928ff">#</span> Instala versión x.y.z. de un paquete NuGet</td>
   </tr>
   <tr>
     <td><span style="color: #f8d910ff">dotnet</span> <span style="color: #00eeffff">run</span></td>
