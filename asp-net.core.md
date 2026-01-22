@@ -13,6 +13,10 @@
     <td><span style="color: #79c928ff">#</span> Crea un proyecto nuevo utilizando template API con controladores</td>
   </tr>
   <tr>
+    <td><span style="color: #f8d910ff">dotnet</span> <span style="color: #00eeffff">add package</span> Nombre.Del.Paquete</td>
+    <td><span style="color: #79c928ff">#</span> Instala un paquete NuGet</td>
+  </tr>
+  <tr>
     <td><span style="color: #f8d910ff">dotnet</span> <span style="color: #00eeffff">run</span></td>
     <td><span style="color: #79c928ff">#</span> Levanta servidor local</td>
   </tr>
