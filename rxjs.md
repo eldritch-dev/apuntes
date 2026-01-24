@@ -39,6 +39,7 @@
 
 ## Ejemplos
 ### DebounceTime con SwitchMap
+```
 this.searchControl.valueChanges
   .pipe(
     debounceTime(300),
@@ -50,6 +51,7 @@ this.searchControl.valueChanges
     this.suggestions.set(res)
   }
 );
+```
 
 valueChanges observa un control de input y emite sus valores.
 debounceTime(300) espera 300ms de silencio y emite únicamente el último valor (el estado actual del Input).
