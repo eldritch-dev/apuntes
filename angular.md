@@ -5,7 +5,7 @@
   <tr>
     <td><span style="color: #f8d910ff">ng</span> <span style="color: #00eeffff">new</span> nombre-proyecto --[<span style="color: #FF0077">style=scss</span>] [<span style="color: #FF0077">routing</span>] [<span style="color: #FF0077">strict</span>]
     </td>
-    <td><span style="color: #79c928ff">#</span> Crea un proyecto Angular nuevo. Routing agrega rutas, style indica el preprocesador CSS, strict define chequeo TS estricto. IMPORTANTE: Al crear un proyecto nuevo de Angular, se crea la carpeta del directorio. Esto significa que primero hay que crear el proyecto Angular, y luego subirlo a Git. No al revés.</td>
+    <td><span style="color: #79c928ff">#</span> Crea un proyecto Angular nuevo. Routing agrega rutas, style indica el preprocesador CSS, strict define chequeo TS estricto. IMPORTANTE: Al crear un proyecto nuevo de Angular, lo más rápido para mi hasta el momento, es crear el repo vacío en GitHub. Luego crear el proyecto Angular en la carpeta que contendrá la carpeta del proyecto e inicializar el repo. Luego, subir el proyecto al repo.</td>
   </tr>
   <tr>
     <td><span style="color: #f8d910ff">ng</span> <span style="color: #00eeffff">s</span> --[<span style="color: #FF0077">open</span>] [<span style="color: #FF0077">port {número}</span>] [<span style="color: #FF0077">watch</span>]</td>
