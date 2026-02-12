@@ -24,7 +24,7 @@
   <tr>
     <td><span style="color: #f8d910ff">docker</span> <span style="color: #00eeffff">start</span> [nombre-del-contenedor]
     </td>
-    <td><span style="color: #79c928ff">#</span> Inicia el contenedor iniciado</td>
+    <td><span style="color: #79c928ff">#</span> Inicia el contenedor indicado</td>
   </tr>
   <tr>
     <td><span style="color: #f8d910ff">docker-compose</span> <span style="color: #00eeffff">down</span> -<span style="color: #FF0077">v</span></td>
